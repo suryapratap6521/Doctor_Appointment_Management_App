@@ -1,0 +1,143 @@
+/* AppointmentForm.css */
+
+/* Add Google Font - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px; /* Adjust the card width as needed */
+  background-color: #272323;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #057e93;
+}
+
+.card-header h1 {
+  font-size: 24px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  color: #333;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calendar-time {
+  display: flex;
+  align-items: flex-start;
+}
+
+.calendar {
+  flex: 1;
+  margin-right: 20px; /* Add space between calendar and time slots */
+}
+
+.current-date {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.time-button {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  flex: 1;
+  min-width: 150px; /* Adjust the button width as needed */
+}
+
+.morning {
+  background-color: #3b3d3f;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.afternoon {
+  background-color: #4d524f;
+  color: #fff;
+  border-color: #00a65a;
+}
+
+.evening {
+  background-color:#4d524f;
+  color: #fff;
+  border-color: #f39c12;
+}
+
+.night {
+  background-color:#4d524f;
+  color: #fff;
+  border-color: #d81b60;
+}
+
+.time-button:hover {
+  background-color: #4d524f;
+  color:white;
+  border-color: #007bff;
+}
+
+button[type='submit'] {
+  background-color: #0c3803;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type='submit']:hover {
+  background-color: #057e93;
+}
+
+div.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

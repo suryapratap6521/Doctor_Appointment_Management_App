@@ -1,0 +1,79 @@
+    .faq-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 0;
+    }
+    
+    .faq-content {
+        display: flex;
+        gap: 4rem;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1200px;
+        width: 100%;
+        padding: 0 2rem;
+    }
+    
+    .faq-left {
+        flex: 1;
+    }
+    
+    .faq-right {
+        flex: 1;
+    }
+    
+    /* Additional styles for FAQ content */
+    .faq-left h2 {
+        color: #ffa600; /* Adjust color as needed */
+        font-size: 2rem;
+    }
+    
+    .faq-left h1 {
+        font-size: 1.5rem;
+        color: #084802; /* Adjust color as needed */
+        font-weight: bold;
+    }
+    
+    .faq-left p {
+        font-size: 1rem;
+    }
+    
+    /* Additional styles for dropdown (Dropdown.css) */
+    .dropdown {
+        width: 100%;
+        border: 1px solid #cdc6c6; /* Adjust color as needed */
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+    
+    .dropdown:hover {
+        transform: scale(1.03);
+        transition: 0.7s;
+        box-shadow: 2px 5px 8px rgba(165, 89, 235, 0.317);
+    }
+    
+    .dropdown div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .dropdown div h5 {
+        color: #084802; /* Adjust color as needed */
+        font-weight: bold;
+    }
+    
+    .dropdown div img {
+        border: 0;
+        border-radius: 4px;
+        padding: 2px;
+        background-color: rgba(183, 143, 220, 0.317);
+    }
+    
+    .dropdown p {
+        color: #999999; /* Adjust color as needed */
+        font-size: 15px;
+    }
+    
